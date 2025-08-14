@@ -1,0 +1,36 @@
+
+ body{animation-name:slide;background-image:url('Food-Ingredients.jpg');
+  animation-duration:3s;
+  animation-timing-function:ease-out;
+  animation-fill-mode:forwards;
+  animation-delay:3s;
+  opacity:0;
+  
+ }
+ @keyframes slide{
+              0%{opacity:0}
+                100%{opacity:1}  
+ }
+ #I1{ position:absolute;left:43%;top:37%;width:70px;
+  background-color:darkcyan;text-align:center;
+  font-weight:900;color:greenyellow;font-size:45px;
+  animation-name:appear;animation-duration:1s;
+  animation-fill-mode:forwards;opacity:0;
+  border:solid greenyellow;border-radius:5px;
+  padding-left:20px;padding-right:120px;
+ }
+ @keyframes appear{
+              from{opacity:0;}  
+              to{opacity:1}
+ }
+ #I2{ position:absolute;left:48%;top:54%;
+  text-decoration:none;background-color:darkcyan;text-align:center;
+  border:solid darkcyan;color:greenyellow;border-radius:3px;
+  border-right-width:7px;animation-name:appear2;
+  animation-duration:1s;
+   animation-fill-mode:forwards;opacity:0;
+ }
+ @keyframes appear2{
+              from{opacity:0;}  
+              to{opacity:1}
+ }
